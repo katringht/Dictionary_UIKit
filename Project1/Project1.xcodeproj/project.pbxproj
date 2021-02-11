@@ -22,6 +22,7 @@
 		2162308625D4324700F5A7F3 /* lighthouse1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2162307F25D4324700F5A7F3 /* lighthouse1.jpg */; };
 		2162308725D4324700F5A7F3 /* lighthouse3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2162308025D4324700F5A7F3 /* lighthouse3.jpg */; };
 		2162308825D4324700F5A7F3 /* lighthouse2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2162308125D4324700F5A7F3 /* lighthouse2.jpg */; };
+		21C224C125D542FC00537C7D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C224C025D542FC00537C7D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		2162307F25D4324700F5A7F3 /* lighthouse1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lighthouse1.jpg; sourceTree = "<group>"; };
 		2162308025D4324700F5A7F3 /* lighthouse3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lighthouse3.jpg; sourceTree = "<group>"; };
 		2162308125D4324700F5A7F3 /* lighthouse2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lighthouse2.jpg; sourceTree = "<group>"; };
+		21C224C025D542FC00537C7D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				2162304925D42D5100F5A7F3 /* SceneDelegate.swift */,
 				2162304B25D42D5100F5A7F3 /* ViewController.swift */,
 				2162304D25D42D5100F5A7F3 /* Main.storyboard */,
+				21C224C025D542FC00537C7D /* DetailViewController.swift */,
 				2162305025D42D5200F5A7F3 /* Assets.xcassets */,
 				2162305225D42D5200F5A7F3 /* LaunchScreen.storyboard */,
 				2162305525D42D5200F5A7F3 /* Info.plist */,
@@ -297,6 +300,7 @@
 				2162304C25D42D5100F5A7F3 /* ViewController.swift in Sources */,
 				2162304825D42D5100F5A7F3 /* AppDelegate.swift in Sources */,
 				2162304A25D42D5100F5A7F3 /* SceneDelegate.swift in Sources */,
+				21C224C125D542FC00537C7D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
