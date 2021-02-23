@@ -12,7 +12,7 @@ class ViewController: UITableViewController {
     var pictures = [String]()
     var selectedPictureNumber = 0
     var totalPictures = 0
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -21,17 +21,20 @@ class ViewController: UITableViewController {
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareApp))
         
-        let fm = FileManager.default
-        let path = Bundle.main.resourcePath!
-        let items = try! fm.contentsOfDirectory(atPath: path)
-        
-        for item in items.sorted(){
-            if item.hasPrefix("lighthouse"){
-                pictures.append(item)
+        DispatchQueue.global(qos: .userInitiated).async {
+            let fm = FileManager.default
+            let path = Bundle.main.resourcePath!
+            let items = try! fm.contentsOfDirectory(atPath: path)
+            
+            for item in items.sorted() where item.hasPrefix("lighthouse"){
+                self.pictures.append(item)
+            }
+            
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
             }
         }
         
-        print(pictures)
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -64,6 +67,6 @@ class ViewController: UITableViewController {
         vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
         present(vc, animated: true)
     }
-
+    
 }
 

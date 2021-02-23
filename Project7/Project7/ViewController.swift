@@ -79,8 +79,10 @@ class ViewController: UITableViewController {
             ac.addAction(UIAlertAction(title: "OK", style: .default))
             present(ac, animated: true)
         }
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
         
-        tableView.reloadData()
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
