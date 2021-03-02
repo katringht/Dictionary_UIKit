@@ -16,6 +16,7 @@
 		21C2B75B25ED705F00F8D865 /* Project10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C2B75A25ED705F00F8D865 /* Project10Tests.swift */; };
 		21C2B76625ED705F00F8D865 /* Project10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C2B76525ED705F00F8D865 /* Project10UITests.swift */; };
 		21C2B77B25ED7B8B00F8D865 /* PerconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C2B77A25ED7B8B00F8D865 /* PerconCell.swift */; };
+		21C87F8025EE2ADC0070CACD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C87F7F25EE2ADC0070CACD /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		21C2B76525ED705F00F8D865 /* Project10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project10UITests.swift; sourceTree = "<group>"; };
 		21C2B76725ED705F00F8D865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21C2B77A25ED7B8B00F8D865 /* PerconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerconCell.swift; sourceTree = "<group>"; };
+		21C87F7F25EE2ADC0070CACD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				21C2B74325ED705E00F8D865 /* AppDelegate.swift */,
 				21C2B74525ED705E00F8D865 /* SceneDelegate.swift */,
 				21C2B74725ED705E00F8D865 /* ViewController.swift */,
+				21C87F7F25EE2ADC0070CACD /* Person.swift */,
 				21C2B74925ED705E00F8D865 /* Main.storyboard */,
 				21C2B77A25ED7B8B00F8D865 /* PerconCell.swift */,
 				21C2B74C25ED705F00F8D865 /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21C87F8025EE2ADC0070CACD /* Person.swift in Sources */,
 				21C2B74825ED705E00F8D865 /* ViewController.swift in Sources */,
 				21C2B74425ED705E00F8D865 /* AppDelegate.swift in Sources */,
 				21C2B77B25ED7B8B00F8D865 /* PerconCell.swift in Sources */,
