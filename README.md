@@ -20,11 +20,17 @@ https://www.hackingwithswift.com/100
 ## Project 6
 ![Frame 5](https://user-images.githubusercontent.com/61863469/113614949-e69a6300-965b-11eb-8662-6d6550687270.png)
 
+##Milestone: Projects 4-6
+![Frame 1](https://user-images.githubusercontent.com/61863469/113616631-06cb2180-965e-11eb-9a43-247152caecd7.png)
+
 ## Project 7
 ![Frame 6](https://user-images.githubusercontent.com/61863469/113614948-e601cc80-965b-11eb-8355-339c7c2f3d27.png)
 
 ## Project 8
 ![Frame 7](https://user-images.githubusercontent.com/61863469/113614946-e5693600-965b-11eb-8731-479555ae9618.png)
+
+##Milestone Project: 7-9
+![Frame 2](https://user-images.githubusercontent.com/61863469/113616630-06328b00-965e-11eb-99bb-5fbbe8ac522e.png)
 
 ## Project 10
 ![Frame 8](https://user-images.githubusercontent.com/61863469/113614938-e26e4580-965b-11eb-93c5-fe28cd354d13.png)
@@ -32,6 +38,10 @@ https://www.hackingwithswift.com/100
 ## Project 11
 ![Frame 9](https://user-images.githubusercontent.com/61863469/113614925-dc786480-965b-11eb-9bdd-f474972e569c.png)
 
-## Project 12
+##Milestone: Projects 10-12
+![Frame 3](https://user-images.githubusercontent.com/61863469/113616619-02066d80-965e-11eb-93ec-76fb2a5babf3.png)
+
+## Project 13
 
 ![Frame 10](https://user-images.githubusercontent.com/61863469/113614915-daaea100-965b-11eb-9925-f23d66cba17d.png)
+
